@@ -52,5 +52,7 @@
    <jdbc:initialize-database data-source="dataSource">
       <jdbc:script location="classpath*:init-db.sql" />
    </jdbc:initialize-database>
+   
+   <context:load-time-weaver/>   
 
 </beans>
